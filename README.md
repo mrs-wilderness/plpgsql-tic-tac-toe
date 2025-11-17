@@ -27,3 +27,9 @@ Examples:
 SELECT * FROM NewGame();
 SELECT * FROM NextMove(1, 2);
 SELECT * FROM getBoard();
+```
+
+## Limitations
+
+Only one game can run per database session.
+
